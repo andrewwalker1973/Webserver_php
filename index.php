@@ -7,6 +7,7 @@
    $path_img="https://".$firstline."/sun.png";
    echo "<br>";
    echo "<img src='{$path_img}' width=500 height=500>";
+   echo 'Hello '.$_GET['name'].'!';
 ?>
 </body>
 </html>
